@@ -5,6 +5,19 @@ This assignment aims at determining the unknown parameters θ, M and X in the gi
 To quantify precision, the L1 loss (mean absolute difference) between the error data and the prediction values is minimized.
 
 
+**LaTeX Format**
+```
+\left(
+t\cos(0.471929)
+ - e^{0.023537|t|}\sin(0.3t)\sin(0.471929)
+ + 54.527736,
+\ 42 + t\sin(0.471929)
+ + e^{0.023537|t|}\sin(0.3t)\cos(0.471929)
+\right)
+```
+
+
+
 
 Approach
 
@@ -31,3 +44,4 @@ Results
 | M | M | 0.023537 |
 | X | X | 54.527736 |
 | Reduced L₁ Loss | — | 3515.287048 |
+
