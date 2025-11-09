@@ -20,17 +20,17 @@ $$
 
 A **hybrid optimization approach** was adopted, consisting of two stages:
 
-### **1. Global Optimization (Differential Evolution)**
+**1. Global Optimization (Differential Evolution)**
 - Explores a large search space of possible values for **θ**, **M**, and **X**.  
 - Helps locate a good starting point near the global minimum by avoiding local minima traps.
 
-### **2. Local Optimization (L-BFGS-B)**
+**2. Local Optimization (L-BFGS-B)**
 - Refines the parameters found during the global search.  
 - Improves accuracy and minimizes the **L₁ loss** to its lowest possible value.
 
 ---
 
-The combination of **global** and **local** optimization ensures:
+### The combination of **global** and **local** optimization ensures:
 - A more accurate fit to the data.  
 - The closest possible match between predicted and observed points.
 
